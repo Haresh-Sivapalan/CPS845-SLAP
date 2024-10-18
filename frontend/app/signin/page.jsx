@@ -5,8 +5,13 @@ import { Button, ButtonGroup } from "@nextui-org/button";
 const signin = () => {
   return (
     <section className="bg-[#070B27] flex justify-center items-center w-screen h-screen">
-      <div className=" flex flex-col h-full w-full xl:w-1/2 justify-center items-center">
-        <Image src="/logo.png" alt="logo" width={100} height={100} />
+      <div className=" flex flex-col gap-4 h-full w-full xl:w-1/2 justify-center items-center">
+        <Image
+          src="/assets/GouldLogo-02.png"
+          alt="logo"
+          width={450}
+          height={400}
+        />
         <div className="bg-white gap-4 h-fit p-10 w-1/2 flex flex-col justify-center items-center">
           <div className="flex justify-start w-full">
             <Button radius="none" className="bg-[#070b27] text-white">
@@ -41,6 +46,12 @@ const signin = () => {
             Cancel Sign In
           </Button>
         </div>
+        <Image
+          src="/assets/SlapLogo-01.png"
+          alt="logo"
+          width={100}
+          height={100}
+        />
       </div>
     </section>
   );
