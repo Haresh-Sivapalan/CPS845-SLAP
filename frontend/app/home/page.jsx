@@ -47,23 +47,23 @@ const Landing = () => {
           <div className="pb-4">
           <Button className="bg-[#FFE315] w-full p">Create new Message</Button>
           </div>
-        <div className="bg-white w-[300px]  flex flex-col justify-between p-8 rounded-md"> 
-          
-          <Card className="bg-[#F9F9F9] mb-4 flex-1 p-2"> 
-            <h1 className="font-bold text-md">Dr. Bill Nye</h1>
-            Reminder: The midterm exam will be held this Friday at 10 AM in Room 302. Please review ...
-          </Card>
-          <Card className="bg-[#F9F9F9] mb-4 flex-1 p-2"> 
-            <h1 className="font-bold text-md">Dr. Marie Curie</h1>
-            Reminder: Your lab report is due next Wednesday. Please ensure all sections are completed.
-          </Card>
-          <Card className="bg-[#F9F9F9] flex-1 p-2 mb-4"> 
-            <h1 className="font-bold text-md">Dr. Albert Einstein</h1>
-            Reminder: Final project proposals are due at the end of the month. Start planning your topic.
-          </Card>
+          <div className="bg-white w-[300px]  flex flex-col justify-between p-8 rounded-md"> 
+            
+            <Card className="bg-[#F9F9F9] mb-4 flex-1 p-2"> 
+              <h1 className="font-bold text-md">Dr. Bill Nye</h1>
+              Reminder: The midterm exam will be held this Friday at 10 AM in Room 302. Please review ...
+            </Card>
+            <Card className="bg-[#F9F9F9] mb-4 flex-1 p-2"> 
+              <h1 className="font-bold text-md">Dr. Marie Curie</h1>
+              Reminder: Your lab report is due next Wednesday. Please ensure all sections are completed.
+            </Card>
+            <Card className="bg-[#F9F9F9] flex-1 p-2 mb-4"> 
+              <h1 className="font-bold text-md">Dr. Albert Einstein</h1>
+              Reminder: Final project proposals are due at the end of the month. Start planning your topic.
+            </Card>
 
-          <h1  className="text-center">View All Messages</h1>
-        </div>
+            <h1  className="text-center">View All Messages</h1>
+          </div>
         </div>
         </div>
       </div>
